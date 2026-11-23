@@ -1,6 +1,7 @@
+
 $(".vierkant").click(function() {
-    $(this).removeClass("w3-red").addClass("w3-orange")
-})
+$(this).removeClass("w3-red").addClass("w3-orange")
+});
 
 $("#showAll").click(function() { // een click-event voor #showAll
     $(".vierkant").show(); // alle element met .vierkant worden zichtbaar
